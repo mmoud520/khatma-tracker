@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متتبع ختمات القرآن</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📖 متتبع ختمات القرآن</h1>
+
+    <div class="stats">
+      <p>✅ عدد الختمات: <span id="khatmas">0</span></p>
+      <p>📄 الصفحات المقروءة: <span id="pages">0</span></p>
+      <p>🎯 المتبقي للوصول إلى 100 ختمة: <span id="remaining">100</span></p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="addKhatma()">+ ختمة جديدة</button>
+      <button onclick="addPages()">+ إضافة صفحات</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
